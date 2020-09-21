@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/degraded_register"/>
+
+
+    <LinearLayout
+        android:id="@+id/in_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@+id/terms_register"
+        android:layout_marginBottom="25dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/clootie"
+                android:text="@string/ms1"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:textColor="@color/chocolate"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp">
+            <EditText
+                android:id="@+id/usuario"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:background="@drawable/back_edit_text"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:hint="Usuario"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp">
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:background="@drawable/back_edit_text"
+                android:hint="Nombre"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:maxLength="14"
+                android:textSize="20dp"
+                android:inputType="textLongMessage"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp">
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:background="@drawable/back_edit_text"
+                android:hint="Apellido"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:inputType="textLongMessage"
+                android:maxLength="14"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp">
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:background="@drawable/back_edit_text"
+                android:hint="Correo"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:maxLength="35"
+                android:inputType="textEmailAddress"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/date_born"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:background="@drawable/back_edit_text"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:hint="Fecha de nacimiento"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp">
+            <EditText
+                android:id="@+id/pass1"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:fontFamily="casual"
+                android:background="@drawable/back_edit_text"
+                android:gravity="center"
+                android:hint="Ingrese contraseña"
+                android:textSize="20dp"
+                android:inputType="textPassword"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp">
+            <EditText
+                android:id="@+id/pass2"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:fontFamily="casual"
+                android:inputType="textPassword"
+                android:background="@drawable/back_edit_text"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:hint="Repita su contraseña"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+        <Button
+            android:id="@+id/startregis"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:fontFamily="@font/clootie"
+            android:background="@drawable/button_state"
+            android:text="@string/lets"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            />
+            <ImageView
+                android:id="@+id/back"
+                android:layout_margin="5dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/atras"
+                android:backgroundTint="@color/colorAccent"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/terms_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/clootie"
+        android:text="@string/terms_reg"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="15dp"
+        />
+
+
+
+
+
+</RelativeLayout>

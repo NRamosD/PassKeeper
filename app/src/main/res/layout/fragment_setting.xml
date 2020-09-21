@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.SettingFragment">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/back_container"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="177dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="30dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/mario"/>
+            <TextView
+                android:id="@+id/nombreApellido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Mi Nombre"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/clootie"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuenta"
+            android:fontFamily="@font/clootie"
+            android:textSize="25dp"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/modificar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_marginVertical="2dp"
+            android:text="\t\tModificar Datos"
+            android:textAlignment="textStart"
+            android:fontFamily="@font/clootie"
+            android:textSize="25dp"
+            android:textColor="@color/chocolate"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Eliminar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_marginVertical="2dp"
+            android:text="\t\tEliminar Cuenta"
+            android:textAlignment="textStart"
+            android:fontFamily="@font/clootie"
+            android:textSize="25dp"
+            android:textColor="@color/chocolate"
+            />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

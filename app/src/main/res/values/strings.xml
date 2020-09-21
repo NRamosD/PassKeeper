@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">UtilitySchool</string>
+    <string name="action_settings">Configuraciones</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="TermsConditions">Esta es una versión de prueba. Todos los derechos reservados.\n
+        <a href="https://www.google.com">Contáctame.</a>
+    </string>
+    <string name="userrequest">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="registrar">¿No tienes cuenta? <u>Regístrate!</u> </string>
+
+    <!-- Resgister Activity-->
+    <string name="ms1">Únete y forma parte de\nnuestra gran comunidad!</string>
+    <string name="terms_reg">Al momento de registrarse, se asume que está de acuerdo\ncon las políticas de privacidad. <u>Toca aquí para revisarlas.</u></string>
+    <string name="lets">Comencemos!</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="message_logout">Cerrar Sesión</string>
+    <string name="title_activity_setting">SettingActivity</string>
+</resources>

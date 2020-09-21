@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_container">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Us-Ps a Guardar"
+                android:fontFamily="@font/clootie"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Design.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="  Etiqueta"
+            android:layout_marginHorizontal="19dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etiqueta"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/back_edit_text"
+                android:fontFamily="casual"
+                android:textSize="25dp"
+                android:imeOptions="actionNext"
+                android:singleLine="true"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Design.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="  Dominio o Página"
+            android:layout_marginHorizontal="19dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/dominio"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/back_edit_text"
+                android:fontFamily="casual"
+                android:textSize="25dp"
+                android:imeOptions="actionNext"
+                android:singleLine="true"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.Design.TextInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="  Usuario"
+                android:layout_marginHorizontal="19dp"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/back_edit_text"
+                    android:fontFamily="casual"
+                    android:textSize="25dp"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Design.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="19dp"
+            android:hint="  Correo Principal">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/CorreoPrincipal"
+                android:layout_marginHorizontal="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/back_edit_text"
+                android:fontFamily="casual"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textSize="25dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Design.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="19dp"
+            android:hint="  Correo Alterno">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/CorreoAlterno"
+                android:layout_marginHorizontal="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/back_edit_text"
+                android:fontFamily="casual"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textSize="25dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Design.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="19dp"
+            android:hint="  Resp-Preg de Seguridad">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/RespuestaPreg"
+                android:layout_marginHorizontal="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/back_edit_text"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:fontFamily="casual"
+                android:textSize="25dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Design.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="19dp"
+            android:hint="  Contraseña">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edContrasena"
+                android:layout_marginHorizontal="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/back_edit_text"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:fontFamily="casual"
+                android:textSize="25dp"
+                android:inputType="textPassword"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:id="@+id/edGuardar"
+            android:text="GUARDAR"
+            android:fontFamily="@font/clootie"
+            android:textSize="25dp"
+            android:layout_marginVertical="5dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

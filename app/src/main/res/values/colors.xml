@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF70</color>
+    <color name="colorPrimaryDark">#FF50</color>
+    <color name="colorAccent">#CD853F</color>
+    <color name="colorAccentLight">#FF9248</color>
+    <color name="chocolate">#D2691E</color>
+    <color name="transparent">#00000000</color>
+    <color name="aqua">#66CDAA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="back_container">#F3DECA</color>
+    <color name="back_shadow">#E8BC94</color>
+    <color name="shadow_bottom">#DFA46F</color>
+    <color name="front_color">#FFEDDE</color>
+</resources>

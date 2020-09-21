@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/userimgPost"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/mario"/>
+        <TextView
+            android:id="@+id/nombreUserPost"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="UserName"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/clootie"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/writtingPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="40dp"
+            android:text="Un texto de muestra"
+            android:textSize="18dp"
+            android:fontFamily="@font/clootie"/>
+        <ImageView
+            android:id="@+id/imgPost"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/back_shadow"
+            android:layout_marginHorizontal="20dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
